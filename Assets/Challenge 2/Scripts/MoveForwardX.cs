@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class MoveForwardX : MonoBehaviour
 {
-    public float speed;
+    public float speed = 30;
 
+     void Start()
+    {
+        
+    }
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
+
