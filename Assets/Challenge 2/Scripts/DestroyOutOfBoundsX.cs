@@ -6,11 +6,6 @@ public class DestroyOutOfBoundsX : MonoBehaviour
 {
     private float leftLimit = 35.0f;
     private float bottomLimit = -5;
-
-      void Start()
-    {
-           
-    }
     // Update is called once per frame
     void Update()
     {
